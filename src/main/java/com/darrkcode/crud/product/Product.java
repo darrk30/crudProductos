@@ -12,6 +12,7 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    //nombre de la columna
     @Column(unique = true)
     private String nombre;
 
