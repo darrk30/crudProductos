@@ -18,6 +18,7 @@ public class Product {
 
     private float precio;
 
+    //fecha
     private LocalDate fecha;
 
     @Transient
